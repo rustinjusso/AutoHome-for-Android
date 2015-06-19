@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.auto_home.ReceiverActivity">
+    <item android:id="@+id/action_switch" android:title="@string/action_switch"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_rescan" android:title="@string/action_rescan"
+        android:orderInCategory="101" app:showAsAction="always" />
+</menu>
